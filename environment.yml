@@ -4,19 +4,24 @@ channels:
 dependencies:
   - python=3.11
   - pip
-  - pandas
   - numpy
-  - matplotlib
-  - seaborn
-  - scikit-learn
-  - geopandas
+  - pydeck
+  - requests
   - shapely
   - pyproj
   - fiona
-  - pydeck
-  - streamlit
-  - requests
+  - statsmodels>=0.13
   - pip:
-      - xgboost
-      - lightgbm
+      - importlib-metadata; python_version<"3.8"
+      - geopandas>=1.0.1
+      - lightgbm>=4.6.0
+      - matplotlib>=3.10.1
+      - pandas>=2.2.3
+      - python-dotenv>=1.1.0
+      - pyarrow>=16.1.0
+      - scikit-learn>=1.6.1
+      - scipy>=1.15.2
+      - seaborn>=0.13.2
+      - streamlit>=1.45.1
+      - xgboost>=2.1.4
       - plotly
